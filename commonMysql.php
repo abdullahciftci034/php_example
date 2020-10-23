@@ -1,3 +1,4 @@
+<?php
 class commonMysql{
     function __construct($mysqlUser){
         require_once APP_FUNCS."config_funcs.php";
@@ -305,3 +306,4 @@ class commonMysql{
         return (object)[];
     }
 }
+?>
